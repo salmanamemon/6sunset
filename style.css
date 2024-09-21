@@ -421,12 +421,17 @@ nav h3 {
     height: 20vh;
     width: 100%;
     background-color: red;
+    display: none;
 }
 
 #footer-bottom {
-    border-top: 1px solid #dadada;
+    border-top: 1px solid #2d2d2d;
     height: 10vh;
     width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #full-scr {
@@ -670,4 +675,11 @@ nav h3 {
         font-size: 9vw;
       
     }
+}
+.swiper-slide img {
+    object-fit: cover;
+    max-width: 100%;
+}
+.swiper-slide {
+    margin-right: 0 !important;
 }
